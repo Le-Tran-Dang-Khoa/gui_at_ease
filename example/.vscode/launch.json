@@ -1,0 +1,60 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "gui_at_ease-Example-Chrome",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/main.dart",
+            "args": [
+              "-d",
+              "chrome",
+              "--web-port=5050",
+            ]
+        },
+        {
+            "name": "gui_at_ease-Example-Edge",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/main.dart",
+            "args": [
+              "-d",
+              "edge",
+              "--web-port=5051",
+            ]
+        },
+        {
+            "name": "gui_at_ease-Example-Windows",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/main.dart",
+            "args": [
+              "-d",
+              "windows"
+            ]
+        },
+        {
+            "name": "gui_at_ease-Example-MacOS",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/main.dart",
+            "args": [
+              "-d",
+              "macos"
+            ]
+        },
+        {
+            "name": "gui_at_ease-Example-Linux",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/main.dart",
+            "args": [
+              "-d",
+              "linux"
+            ]
+        }
+    ]
+}
